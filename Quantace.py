@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Load Excel file
-file_path = r"C:\Python - Financial Markets\Exploratory Projects\streamlit-quantace\Quantace - Performance Oct 2024.xlsx"
+file_path = 'Quantace - Performance Oct 2024.xlsx'
 xls = pd.ExcelFile(file_path)
 
 # Load the two worksheets
